@@ -64,12 +64,8 @@ ZSH_THEME="refined"
 # Example format: plugins=(rails git textmate ruby lighthouse)
 # Add wisely, as too many plugins slow down shell startup.
 plugins=(
-  # git
-  # vi-mode
-  zsh-completions
-  zsh-autosuggestions
-  zsh-history-substring-search
-  zsh-syntax-highlighting
+  git
+  vi-mode
 )
 
 source $ZSH/oh-my-zsh.sh
