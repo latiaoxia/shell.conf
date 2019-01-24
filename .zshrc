@@ -66,6 +66,10 @@ ZSH_THEME="refined"
 plugins=(
   # git
   # vi-mode
+  zsh-completions
+  zsh-autosuggestions
+  zsh-history-substring-search
+  zsh-syntax-highlighting
 )
 
 source $ZSH/oh-my-zsh.sh
