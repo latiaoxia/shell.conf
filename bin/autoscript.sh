@@ -10,7 +10,7 @@ case $distro in
         "ubuntu" | "debian")
                 install_cmd="sudo apt-get install"
                 ;;
-        "manjaro" | "archlinux")
+        "manjarolinux" | "archlinux")
                 install_cmd="sudo pacman -S"
                 ;;
         *)
