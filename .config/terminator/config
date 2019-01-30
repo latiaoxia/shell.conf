@@ -1,0 +1,91 @@
+[global_config]
+  suppress_multiple_term_dialog = True
+  tab_position = bottom
+  title_font = Hack 9
+  title_inactive_bg_color = "#31363b"
+  title_inactive_fg_color = "#dce6e7"
+  title_receive_bg_color = "#7f8c8d"
+  title_receive_fg_color = "#fcfcfc"
+  title_transmit_bg_color = "#31363b"
+  title_transmit_fg_color = "#eff0f1"
+  title_use_system_font = False
+[keybindings]
+  broadcast_all = None
+  broadcast_group = None
+  broadcast_off = None
+  close_window = None
+  cycle_next = None
+  cycle_prev = None
+  edit_tab_title = None
+  edit_terminal_title = None
+  edit_window_title = None
+  go_down = <Primary><Shift>Down
+  go_left = <Primary><Shift>Left
+  go_next = None
+  go_prev = None
+  go_right = <Primary><Shift>Right
+  go_up = <Primary><Shift>Up
+  group_all = None
+  group_tab = None
+  help = None
+  hide_window = None
+  insert_number = None
+  insert_padded = None
+  layout_launcher = None
+  move_tab_left = None
+  move_tab_right = None
+  new_terminator = None
+  next_tab = <Shift>Right
+  prev_tab = <Shift>Left
+  resize_down = None
+  resize_left = None
+  resize_right = None
+  resize_up = None
+  split_horiz = <Primary><Shift>n
+  split_vert = <Primary><Shift>v
+  toggle_scrollbar = None
+  toggle_zoom = None
+  ungroup_all = None
+  ungroup_tab = None
+[layouts]
+  [[default]]
+    [[[child0]]]
+      fullscreen = False
+      last_active_window = True
+      maximised = False
+      order = 0
+      parent = ""
+      position = 453:289
+      size = 837, 633
+      title = max@max-virtual-machine: ~
+      type = Window
+    [[[child1]]]
+      active_page = 1
+      labels = None, None
+      last_active_term = 93910316-0833-4a0f-9b30-8c075a4bf3f8, 4569dedb-3d0e-4f81-93d2-ad31700b2112
+      order = 0
+      parent = child0
+      type = Notebook
+    [[[terminal2]]]
+      order = 0
+      parent = child1
+      profile = default
+      type = Terminal
+      uuid = 93910316-0833-4a0f-9b30-8c075a4bf3f8
+    [[[terminal3]]]
+      order = 1
+      parent = child1
+      profile = default
+      type = Terminal
+      uuid = 4569dedb-3d0e-4f81-93d2-ad31700b2112
+[plugins]
+[profiles]
+  [[default]]
+    background_color = "#31363b"
+    copy_on_selection = True
+    cursor_color = "#eff0f1"
+    font = Hack 9
+    foreground_color = "#eff0f1"
+    palette = "#31363b:#ed1515:#11d116:#f67400:#1d99f3:#9b59b6:#1abc9c:#eff0f1:#7f8c8d:#c0392b:#1cdc9a:#fdbc4b:#3daee9:#8e44ad:#16a085:#fcfcfc"
+    show_titlebar = False
+    use_system_font = False
