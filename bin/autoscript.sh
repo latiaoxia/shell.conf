@@ -49,3 +49,6 @@ git clone https://github.com/latiaoxia/nvim.config.git $nvim_config_dir
 echo "installing terminator..."
 $install_cmd terminator
 
+echo "installing screen..."
+$install_cmd screen
+
