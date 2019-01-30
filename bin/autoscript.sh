@@ -6,12 +6,15 @@ distro=`lsb_release -is | awk '{print tolower($0)}'`
 # distro=$1
 
 install_cmd=""
+python_pkg=""
 case $distro in
         "ubuntu" | "debian")
                 install_cmd="sudo apt-get install"
+                python_pkg=" python python3 python-pip python3-pip"
                 ;;
         "manjarolinux" | "archlinux")
                 install_cmd="sudo pacman -S"
+                python_pkg=" python python2 python-pip python2-pip"
                 ;;
         *)
                 echo "$distro not support!"
@@ -21,7 +24,7 @@ esac
 echo "OS distro: $distro"
 
 echo "installing base package....."
-$install_cmd zsh git python python3 python-pip python3-pip
+$install_cmd zsh git $python_pkg
 
 echo "configuring zsh....."
 sh -c "$(curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
