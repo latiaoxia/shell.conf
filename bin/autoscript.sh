@@ -46,4 +46,4 @@ nvim_config_dir=$HOME/.config/nvim/
 [ -d $nvim_config_dir ] || mkdir -p $nvim_config_dir
 git clone https://github.com/latiaoxia/nvim.config.git $nvim_config_dir
 
-
+echo "on server, install tmux manually"
