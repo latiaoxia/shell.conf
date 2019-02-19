@@ -1,3 +1,3 @@
 #!/bin/bash
 
-sudo screen /dev/ttyUSB0 115200
+sudo -E screen /dev/ttyUSB0 115200
