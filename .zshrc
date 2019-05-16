@@ -126,7 +126,6 @@ if [[ "${terminfo[kcud1]}" != "" ]]; then
 fi
 
 export EDITOR=nvim
-<<<<<<< HEAD
 
 # This speeds up pasting w/ autosuggest
 # https://github.com/zsh-users/zsh-autosuggestions/issues/238
@@ -141,5 +140,3 @@ pastefinish() {
 zstyle :bracketed-paste-magic paste-init pasteinit
 zstyle :bracketed-paste-magic paste-finish pastefinish
 
-=======
->>>>>>> add EDITOR for tmux
